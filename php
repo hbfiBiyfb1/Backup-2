@@ -1,0 +1,2 @@
+$myfile = fopen("testfile.txt", "w")
+
