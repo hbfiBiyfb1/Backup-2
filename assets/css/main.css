@@ -70,12 +70,14 @@ input, select, textarea {
 	appearance: none;
 }
 
+
+
 /* Bannernova */
 
 #Bannernova {
     background-attachment: fixed;
 
-    background-image:
+    background:
         linear-gradient(
         45deg,
         rgba(15, 35, 85, 0.88) 0%,
