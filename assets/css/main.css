@@ -71,19 +71,19 @@ input, select, textarea {
 }
 
 /* Fuckery */
-.realmvr {
+body.realmvr {
     background-color: #c62828;
 }
 
-.realmvr nav a {
+body.realmvr nav a {
     color: white;
 }
 
-.realmvr main {
+body.realmvr main {
     background-color: #fff5f5;
 }
 
-.realmvr h1 {
+body.realmvr h1 {
     color: #c62828;
 }
 
