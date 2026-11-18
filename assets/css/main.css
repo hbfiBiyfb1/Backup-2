@@ -93,77 +93,79 @@ body.realmvr h1 {
 
 /* Headernova */
 
-	#Headernova {
-		padding-top: 3.5em;
-	}
+#Headernova {
+    padding-top: 3.5em;
+    background: linear-gradient(
+        135deg,
+        #172554 0%,
+        #312e81 50%,
+        #581c87 100%
+    );
+    box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
+    cursor: default;
+    height: 3.5em;
+    left: 0;
+    line-height: 3.5em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
 
-	#Headernova {
-		background: linear-gradient(
-	    135deg,
- 	    #172554 0%,
-	    #312e81 50%,
-   	    #581c87 100%
-		box-shadow: 0 0 0.25em 0 rgba(0, 0, 0, 0.25);
-		cursor: default;
-		height: 3.5em;
-		left: 0;
-		line-height: 3.5em;
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 100;
-	}
+#Headernova h1 {
+    height: inherit;
+    left: 1.25em;
+    line-height: inherit;
+    margin: 0;
+    position: absolute;
+    top: 0;
+}
 
-		#Headernova h1 {
-			height: inherit;
-			left: 1.25em;
-			line-height: inherit;
-			margin: 0;
-			position: absolute;
-			top: 0;
-		}
+#Headernova nav {
+    position: absolute;
+    right: 1em;
+    top: 0;
+}
 
-		#Headernova nav {
-			position: absolute;
-			right: 1em;
-			top: 0;
-		}
+#Headernova nav ul {
+    margin: 0;
+}
 
-			#Headernova nav ul {
-				margin: 0;
-			}
+#Headernova nav ul li {
+    display: inline-block;
+    margin-left: 1em;
+}
 
-				#Headernova nav ul li {
-					display: inline-block;
-					margin-left: 1em;
-				}
+#Headernova nav ul li a,
+#Headernova nav ul li span {
+    border: 0;
+    color: inherit;
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+    outline: 0;
+}
 
-					#Headernova nav ul li a, #header nav ul li span {
-						border: 0;
-						color: inherit;
-						display: inline-block;
-						height: inherit;
-						line-height: inherit;
-						outline: 0;
-					}
+#Headernova nav ul li a.button,
+#Headernova nav ul li span.button {
+    height: 2em;
+    line-height: 2em;
+    padding: 0 1.25em;
+}
 
-						#Headernova nav ul li a.button, #header nav ul li span.button {
-							height: 2em;
-							line-height: 2em;
-							padding: 0 1.25em;
-						}
+#Headernova nav ul li a:not(.button):before,
+#Headernova nav ul li span:not(.button):before {
+    margin-right: 0.5em;
+}
 
-						#Headernova nav ul li a:not(.button):before, #header nav ul li span:not(.button):before {
-							margin-right: 0.5em;
-						}
+#Headernova nav ul li.active > a,
+#Headernova nav ul li.active > span {
+    color: #e44c65;
+}
 
-					#Headernova nav ul li.active > a, #header nav ul li.active > span {
-						color: #e44c65;
-					}
-
-					#Headernova nav ul li > ul {
-						display: none;
-					}
+#Headernova nav ul li > ul {
+    display: none;
+}
 
 
 
