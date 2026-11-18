@@ -70,6 +70,23 @@ input, select, textarea {
 	appearance: none;
 }
 
+/* Fuckery */
+.realmvr {
+    background-color: #c62828;
+}
+
+.realmvr nav a {
+    color: white;
+}
+
+.realmvr main {
+    background-color: #fff5f5;
+}
+
+.realmvr h1 {
+    color: #c62828;
+}
+
 /* Basic */
 
 	html {
@@ -97,7 +114,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.8);
-		font-family: "Roboto", Helvetica, sans-serif;
+		font-family: "Roboto", Helvetica, sans-serif, Times;
 		font-size: 150pt;
 		font-weight: 100;
 		line-height: 1.75em;
