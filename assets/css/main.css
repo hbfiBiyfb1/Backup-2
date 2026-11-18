@@ -84,7 +84,7 @@ input, select, textarea {
         rgba(35, 65, 145, 0.82) 45%,
         rgba(91, 75, 170, 0.72) 100%
 			
-    ),
+    );
 				
     url("../../images/banner.jpg");
     background-position: center center;
