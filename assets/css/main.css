@@ -95,6 +95,10 @@ input, select, textarea {
     z-index: 21;
 }
 
+#Bannernova {
+    font-family: 'Roboto', sans-serif;
+}
+
 #Bannernova:before {
     content: '';
     display: inline-block;
