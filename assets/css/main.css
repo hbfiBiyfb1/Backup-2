@@ -76,12 +76,12 @@ input, select, textarea {
 
 #Bannernova {
     background-attachment: fixed;
-    background-image: linear-gradient(
+    background: linear-gradient(
         45deg,
-        rgba(15, 35, 85, 0.88) 0%,
-        rgba(35, 65, 145, 0.82) 45%,
-        rgba(91, 75, 170, 0.72) 100%
-    ),
+        #172554 0%,
+        #312e81 50%,
+        #581c87 100%
+    );
     background-position: center center;
     background-size: cover;
 
