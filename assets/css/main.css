@@ -75,7 +75,6 @@ input, select, textarea {
 /* Bannernova */
 
 #Bannernova {
-    background-attachment: fixed;
     background: linear-gradient(
         45deg,
         #172554 0%,
